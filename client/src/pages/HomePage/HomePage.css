@@ -1,0 +1,45 @@
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: floralwhite;
+}
+
+.home-page {
+  min-height: 100vh;
+  margin: 0;
+  background-color: floralwhite;
+}
+
+.home-header {
+  width: 100%;
+  padding: 20px 32px;
+  border-bottom: 1px solid black;
+  background-color: floralwhite;
+}
+
+.home-header h1 {
+  margin: 0;
+  color: black;
+  font-size: 28px;
+}
+
+.create-recipe-button {
+  display: block;
+  width: fit-content;
+  margin: 8px auto 32px;
+  padding: 10px 18px;
+  border-radius: 6px;
+  background-color: olivedrab;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.create-recipe-button:hover {
+  background-color: darkgreen;
+}
